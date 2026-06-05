@@ -20,7 +20,7 @@ _Turn every citizen snapshot into a validated, routed, and trackable municipal r
 
   <!-- BANNER PLACEHOLDER — Uncomment when your designer delivers the hero asset: -->
 
-  <img src="frontend/assets/outputs/banner.png" alt="SnapCity Hero Banner" width="100%"/>
+  <img src="frontend/assets/outputs/banner.jpeg" alt="SnapCity Hero Banner" width="100%"/>
 
 
 <br/>
