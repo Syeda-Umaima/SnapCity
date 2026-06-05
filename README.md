@@ -26,13 +26,13 @@ _Turn every citizen snapshot into a validated, routed, and trackable municipal r
 [Features](#-core-features) · [Architecture](#-system-architecture) · [Setup](#-local-setup--installation) · [Environment](#-environment-variables) · [Backend Docs](./backend/README.md) · [Frontend Docs](./frontend/README.md)
 
 <br/>
-<Left>
+
+</div>
+
 ## 🌐 Download the Application Here
 
 Explore the app features here:  
-**[SnacCity — Android APK](https://drive.google.com/file/d/1lS2cspnAlPWk14OD3Kl0PGQ-koNH32ch/view?usp=sharing)**
-</Left>
-</div>
+**[SnapCity — Android APK](https://drive.google.com/file/d/1lS2cspnAlPWk14OD3Kl0PGQ-koNH32ch/view?usp=sharing)**
 
 ---
 
