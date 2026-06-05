@@ -17,15 +17,18 @@ _Turn every citizen snapshot into a validated, routed, and trackable municipal r
 
 <br/>
 
-
   <!-- BANNER PLACEHOLDER — Uncomment when your designer delivers the hero asset: -->
 
   <img src="frontend/assets/outputs/banner.jpeg" alt="SnapCity Hero Banner" width="100%"/>
 
-
 <br/>
 
 [Features](#-core-features) · [Architecture](#-system-architecture) · [Setup](#-local-setup--installation) · [Environment](#-environment-variables) · [Backend Docs](./backend/README.md) · [Frontend Docs](./frontend/README.md)
+
+## 🌐 Download the Application Here
+
+Explore the app features here:  
+**[SnacCity — Android APK](https://drive.google.com/file/d/1lS2cspnAlPWk14OD3Kl0PGQ-koNH32ch/view?usp=sharing)**
 
 </div>
 
@@ -89,11 +92,11 @@ Track **impact scores**, **local rank percentiles**, verified fixes, and **Evide
 
 ## Tech Stack
 
-| Layer                  | Technology                                                                                                        | Role in SnapCity                                                                  |
-| :--------------------- | :---------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------- |
-| **Frontend**           | ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)            | Cross-platform UI — camera, map, cases, feed, God Mode viewer                     |
-| **Backend**            | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)            | CIRO REST API — `/api/v1/report`, `/api/v1/cases`, `/api/v1/godmode/*`            |
-| **Database & Storage** | ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)         | `uploads` bucket for evidence · `cases` table persistence                         |
+| Layer                  | Technology                                                                                                              | Role in SnapCity                                                                                                             |
+| :--------------------- | :---------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------- |
+| **Frontend**           | ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)                  | Cross-platform UI — camera, map, cases, feed, God Mode viewer                                                                |
+| **Backend**            | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)                  | CIRO REST API — `/api/v1/report`, `/api/v1/cases`, `/api/v1/godmode/*`                                                       |
+| **Database & Storage** | ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)               | `uploads` bucket for evidence · `cases` table persistence                                                                    |
 | **AI Core**            | ![Gemini](https://img.shields.io/badge/Gemini%203.1%20Flash--Lite-8E75B2?style=flat-square&logo=google&logoColor=white) | Supervisor Agentic Swarm prioritizing `gemini-3.1-flash-lite` (with `gemini-2.5-flash` dual-fallback + local rules failsafe) |
 
 ---
@@ -101,6 +104,7 @@ Track **impact scores**, **local rank percentiles**, verified fixes, and **Evide
 ## System Architecture
 
 %%{init: {'flowchart': {'useMaxWidth': true}}}%%
+
 ```mermaid
 flowchart TB
     subgraph Citizen["📱 Flutter Citizen App"]
@@ -280,8 +284,6 @@ _Google Antigravity Hackathon · SnapCity CIRO_
 
 _Contributors: Syeda Umaima · Usama Shami · Hassan Raza · Faizan Maqbool · Arham Nabi_
 
-
 </div>
 
 </div>
-
